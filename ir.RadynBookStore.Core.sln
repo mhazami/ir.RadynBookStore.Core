@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ir.RadynBookStore.Core", "ir.RadynBookStore.Core\ir.RadynBookStore.Core.csproj", "{24E05D10-38DE-43D6-9932-477BE80DB59E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{3FC75628-1D72-4D4C-9F19-4F83A78F2F3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{24E05D10-38DE-43D6-9932-477BE80DB59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24E05D10-38DE-43D6-9932-477BE80DB59E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{24E05D10-38DE-43D6-9932-477BE80DB59E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3FC75628-1D72-4D4C-9F19-4F83A78F2F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC75628-1D72-4D4C-9F19-4F83A78F2F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC75628-1D72-4D4C-9F19-4F83A78F2F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC75628-1D72-4D4C-9F19-4F83A78F2F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
