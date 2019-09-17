@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="تعریف کتاب جدید"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="100px"
+		android:id="@+id/txtTitle"
+		android:gravity="center"
+		android:textColor="#fffafafa"
+		android:textColorHint="#ff263238"
+		android:background="#ff263238" />
+	<TextView
+		android:text="نام کتاب"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtName"
+		android:gravity="right"
+		android:padding="10dp"
+		android:textSize="14dp" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Name" />
+	<TextView
+		android:text="توضیحات"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtAbstract"
+		android:gravity="right"
+		android:padding="10dp"
+		android:textSize="14dp" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Abstract" />
+	<TextView
+		android:text="نویسنده"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtAuthor"
+		android:gravity="right"
+		android:padding="10dp"
+		android:textSize="14dp" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Author" />
+	<TextView
+		android:text="قیمت"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtPrice"
+		android:gravity="right"
+		android:padding="10dp"
+		android:textSize="14dp" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Price" />
+	<Button
+		android:text="ذخیره"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnSave" />
 </LinearLayout>

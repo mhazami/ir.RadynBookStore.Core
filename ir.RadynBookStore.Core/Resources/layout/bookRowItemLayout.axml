@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:padding="10dp"
+		android:id="@+id/rowimg" />
+	<TextView
+		android:text="یک عاشقانه آرام"
+       android:textSize="20dp"
+	    android:gravity="right"
+	    android:padding="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+    android:layout_toRightOf="@+id/rowimg"
+	    android:textColor="@android:color/holo_green_dark"
+		android:id="@+id/rowTitle" />
+	<TextView
+    android:text="نادر ابراهیمی"
+    android:paddingRight="10dp"
+    android:textSize="14dp"
+    android:gravity="right"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/rowimg"
+    android:layout_below="@+id/rowTitle"
+    android:textColor="@android:color/holo_green_dark"
+    android:id="@+id/rowAuthor" />
+	<TextView
+		android:text="10000 تومان"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/rowimg"
+		android:textStyle="bold"
+		android:textColor="@android:color/holo_green_dark"
+		android:id="@+id/rowPrice"
+		android:layout_below="@+id/rowTitle"
+		android:gravity="left" />
+
+</RelativeLayout>

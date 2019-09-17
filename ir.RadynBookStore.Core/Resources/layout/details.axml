@@ -6,5 +6,71 @@
 	android:layout_height="match_parent"
 	android:minWidth="25px"
 	android:minHeight="25px">
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="wrap_content"
+		android:layout_height="200dp"
+		android:layout_gravity="center"
+		android:id="@+id/imageView1" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:paddingRight="15dp"
+		android:textSize="30dp"
+		android:id="@+id/detailsName" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:textSize="12dp"
+		android:padding="15dp"
+	    android:id="@+id/detailsAbstract" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:textSize="12dp"
+		android:padding="15dp"
+	    android:id="@+id/detailsAuthor" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:textSize="12dp"
+		android:padding="15dp"
+		android:textStyle="bold"
+	    android:id="@+id/detailsPrice" />
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1" >
+		<Button
+			android:text="صرف نظر"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:id="@+id/btnCancel" />
+		<EditText
+		android:text="1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:id="@+id/Amount" />
+		
+		<Button
+		android:text="سفارش"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:id="@+id/btnOrder" />
+		
+	</RelativeLayout>
+	
 
 </LinearLayout>

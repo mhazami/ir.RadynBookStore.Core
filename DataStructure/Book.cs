@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using SQLite.Net.Attributes;
 
 namespace DataStructure
 {
     public class Book
     {
-        [Key]
+        [PrimaryKey,AutoIncrement]
         public int Id { get; set; }
 
         public string Name { get; set; }
