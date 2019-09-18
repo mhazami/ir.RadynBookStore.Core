@@ -48,27 +48,19 @@
 		android:layout_height="wrap_content"
 		android:id="@+id/relativeLayout1" >
 		<Button
-			android:text="صرف نظر"
+			android:text="ویرایش"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_alignParentRight="true"
-			android:id="@+id/btnCancel" />
-		<EditText
-		android:text="1"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true"
-		android:layout_centerVertical="true"
-		android:layout_centerInParent="true"
-		android:gravity="center"
-		android:id="@+id/Amount" />
+			android:id="@+id/btnEdit" />
+		
 		
 		<Button
-		android:text="سفارش"
+		android:text="حذف"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_alignParentLeft="true"
-		android:id="@+id/btnOrder" />
+		android:id="@+id/btnDelete" />
 		
 	</RelativeLayout>
 	

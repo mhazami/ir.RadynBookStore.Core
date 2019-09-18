@@ -1,5 +1,4 @@
-﻿
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
@@ -17,9 +16,8 @@ namespace ir.RadynBookStore.Core
         private TextView _abstract;
         private TextView _price;
         private TextView _name;
-        private EditText _amount;
-        private Button _btnCancel;
-        private Button _btnOrder;
+        private Button _btnEdit;
+        private Button _btnDelete;
         private int _id;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -30,8 +28,16 @@ namespace ir.RadynBookStore.Core
             DefinitionControls();
             LoadControls();
 
-            _btnCancel.Click += delegate
+            _btnEdit.Click += delegate
             {
+                var intent = new Intent(this, typeof(EditActivity));
+                intent.PutExtra("id", _id.ToString());
+                StartActivity(intent);
+            };
+
+            _btnDelete.Click += delegate
+            {
+                new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).DeleteBook(_id);
                 Intent intetn = new Intent(this, typeof(IndexActivity));
                 StartActivity(intetn);
             };
@@ -40,24 +46,14 @@ namespace ir.RadynBookStore.Core
         public void DefinitionControls()
         {
             _name = FindViewById<TextView>(Resource.Id.detailsName);
-            _amount = FindViewById<EditText>(Resource.Id.Amount);
-            _btnCancel = FindViewById<Button>(Resource.Id.btnCancel);
-            _btnOrder = FindViewById<Button>(Resource.Id.btnOrder);
+            _btnEdit = FindViewById<Button>(Resource.Id.btnEdit);
+            _btnDelete = FindViewById<Button>(Resource.Id.btnDelete);
             _abstract = FindViewById<TextView>(Resource.Id.detailsAbstract);
             _author = FindViewById<TextView>(Resource.Id.detailsAuthor);
             _price = FindViewById<TextView>(Resource.Id.detailsPrice);
         }
 
-        public Order GetDataFromControls()
-        {
-            Order order = new Order()
-            {
-                BookTitle = _name.Text,
-                Amount = int.Parse(_amount.Text),
-                BookId = _id
-            };
-            return order;
-        }
+      
 
         public void LoadControls()
         {

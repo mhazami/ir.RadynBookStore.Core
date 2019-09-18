@@ -41,5 +41,10 @@ namespace DataStructure.Repository
             return connection.Delete<Book>(id);
         }
 
+        public int UpdateBook(Book book)
+        {
+            return connection.Update(book);
+        }
+
     }
 }
