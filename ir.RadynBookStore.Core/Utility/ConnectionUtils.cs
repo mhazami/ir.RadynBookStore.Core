@@ -18,7 +18,7 @@ namespace ir.RadynBookStore.Core.Utility
     {
         public static string DataBasePath()
         {
-            string fileName = "Radyn_BookStore.db";
+            string fileName = "RadynBookStore.db";
             var dbPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
             return Path.Combine(dbPath, fileName);
         }
