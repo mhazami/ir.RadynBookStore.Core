@@ -5,7 +5,6 @@ using Android.Widget;
 using DataStructure;
 using DataStructure.Repository;
 using ir.RadynBookStore.Core.Utility;
-using SQLite.Net.Platform.XamarinAndroid;
 
 namespace ir.RadynBookStore.Core
 {
@@ -37,7 +36,7 @@ namespace ir.RadynBookStore.Core
 
             _btnDelete.Click += delegate
             {
-                new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).DeleteBook(_id);
+                new DbManager(ConnectionUtils.DataBasePath).DeleteBook(_id);
                 Intent intetn = new Intent(this, typeof(IndexActivity));
                 StartActivity(intetn);
             };
@@ -57,7 +56,7 @@ namespace ir.RadynBookStore.Core
 
         public void LoadControls()
         {
-            Book book = new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).GetBook(_id);
+            Book book = new DbManager(ConnectionUtils.DataBasePath).GetBook(_id);
             _name.Text = book.Name;
             _abstract.Text = book.Abstract;
             _author.Text = book.Author;

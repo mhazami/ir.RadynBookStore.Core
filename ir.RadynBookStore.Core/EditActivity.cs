@@ -12,7 +12,6 @@ using Android.Widget;
 using DataStructure;
 using DataStructure.Repository;
 using ir.RadynBookStore.Core.Utility;
-using SQLite.Net.Platform.XamarinAndroid;
 
 namespace ir.RadynBookStore.Core
 {
@@ -36,7 +35,7 @@ namespace ir.RadynBookStore.Core
             _btnSave.Click += delegate
             {
                 Book book = GetDataFromControls();
-                if (new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).UpdateBook(book) != 0)
+                if (new DbManager(ConnectionUtils.DataBasePath).UpdateBook(book) != 0)
                 {
                     Intent intetn = new Intent(this, typeof(IndexActivity));
                     StartActivity(intetn);
@@ -51,27 +50,27 @@ namespace ir.RadynBookStore.Core
             _author = FindViewById<EditText>(Resource.Id.Author);
             _price = FindViewById<EditText>(Resource.Id.Price);
             _btnSave = FindViewById<Button>(Resource.Id.btnSave);
-            Book book = new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).GetBook(_id);
+            //Book book = new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).GetBook(_id);
 
-            TextView title = FindViewById<TextView>(Resource.Id.txtTitle);
-            title.Text = $"ویرایش اطلاعات کتاب {book.Name}";
+            //TextView title = FindViewById<TextView>(Resource.Id.txtTitle);
+            //title.Text = $"ویرایش اطلاعات کتاب {book.Name}";
         }
 
         public Book GetDataFromControls()
         {
-            Book book = new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).GetBook(_id);
+            Book book = new DbManager(ConnectionUtils.DataBasePath).GetBook(_id);
 
             book.Name = _name.Text;
             book.Author = _author.Text;
             book.Price = Convert.ToDecimal(_price.Text);
             book.Abstract = _abstract.Text;
-             
+
             return book;
         }
 
         public void LoadControls()
         {
-            Book book = new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).GetBook(_id);
+            Book book = new DbManager(ConnectionUtils.DataBasePath).GetBook(_id);
             _name.Text = book.Name;
             _abstract.Text = book.Abstract;
             _author.Text = book.Author;

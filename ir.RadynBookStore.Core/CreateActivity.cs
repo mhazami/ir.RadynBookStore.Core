@@ -5,7 +5,6 @@ using Android.Widget;
 using DataStructure;
 using DataStructure.Repository;
 using ir.RadynBookStore.Core.Utility;
-using SQLite.Net.Platform.XamarinAndroid;
 using System;
 
 namespace ir.RadynBookStore.Core
@@ -26,7 +25,7 @@ namespace ir.RadynBookStore.Core
             _btnSave.Click += delegate
             {
                 Book book = GetDataFromControls();
-                if (new DbManager(new SQLitePlatformAndroid(), ConnectionUtils.DataBasePath()).InsertBook(book) != 0)
+                if (new DbManager(ConnectionUtils.DataBasePath).InsertBook(book) != 0)
                 {
                     string message = $"کتاب جدید با عنوان {book.Name} با موفقیت ثبت شد";
                     ClearControls();

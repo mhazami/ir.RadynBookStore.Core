@@ -5,7 +5,6 @@ using Android.Widget;
 using DataStructure;
 using DataStructure.Repository;
 using ir.RadynBookStore.Core.Adabtors;
-using SQLite.Net.Platform.XamarinAndroid;
 using System.Collections.Generic;
 using Android.Content;
 
@@ -18,11 +17,16 @@ namespace ir.RadynBookStore.Core
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            //SetContentView(Resource.Layout.index);
-            _books = new DbManager(new SQLitePlatformAndroid(), Utility.ConnectionUtils.DataBasePath()).GetAllBooks();
-            //_books = List();
+            
+            SetContentView(Resource.Layout.grid);
+
+            _books = new DbManager(Utility.ConnectionUtils.DataBasePath).GetAllBooks();
+            //var mylist = FindViewById<ListView>(Resource.Id.list);
             ListAdapter = new BookListAD(this, _books);
             ListView.ChoiceMode = ChoiceMode.None;
+            //mylist.Adapter= new BookListAD(this, _books);
+            //mylist.ChoiceMode = ChoiceMode.None;
+
         }
 
         protected override void OnListItemClick(ListView l, View v, int position, long id)

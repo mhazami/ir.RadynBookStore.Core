@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using SQLite.Net.Attributes;
+﻿using SQLite;
+using System.ComponentModel.DataAnnotations;
 
 namespace DataStructure
 {
