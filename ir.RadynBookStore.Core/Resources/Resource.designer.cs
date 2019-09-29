@@ -1187,44 +1187,44 @@ namespace ir.RadynBookStore.Core
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
-			
-			// aapt resource value: 0x7f0c004c
-			public const int abc_background_cache_hint_selector_material_light = 2131492940;
-			
-			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_borderless_text_material = 2131492941;
-			
-			// aapt resource value: 0x7f0c004e
-			public const int abc_btn_colored_text_material = 2131492942;
-			
-			// aapt resource value: 0x7f0c004f
-			public const int abc_color_highlight_material = 2131492943;
-			
-			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_dark = 2131492944;
-			
 			// aapt resource value: 0x7f0c0051
-			public const int abc_hint_foreground_material_light = 2131492945;
+			public const int abc_background_cache_hint_selector_material_dark = 2131492945;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int abc_background_cache_hint_selector_material_light = 2131492946;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int abc_btn_colored_borderless_text_material = 2131492947;
+			
+			// aapt resource value: 0x7f0c0054
+			public const int abc_btn_colored_text_material = 2131492948;
+			
+			// aapt resource value: 0x7f0c0055
+			public const int abc_color_highlight_material = 2131492949;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int abc_hint_foreground_material_dark = 2131492950;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int abc_hint_foreground_material_light = 2131492951;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int abc_input_method_navigation_guard = 2131492864;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_dark = 2131492946;
+			// aapt resource value: 0x7f0c0058
+			public const int abc_primary_text_disable_only_material_dark = 2131492952;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_disable_only_material_light = 2131492947;
+			// aapt resource value: 0x7f0c0059
+			public const int abc_primary_text_disable_only_material_light = 2131492953;
 			
-			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_dark = 2131492948;
+			// aapt resource value: 0x7f0c005a
+			public const int abc_primary_text_material_dark = 2131492954;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_material_light = 2131492949;
+			// aapt resource value: 0x7f0c005b
+			public const int abc_primary_text_material_light = 2131492955;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_search_url_text = 2131492950;
+			// aapt resource value: 0x7f0c005c
+			public const int abc_search_url_text = 2131492956;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_search_url_text_normal = 2131492865;
@@ -1235,29 +1235,29 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0c0003
 			public const int abc_search_url_text_selected = 2131492867;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_dark = 2131492951;
-			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_secondary_text_material_light = 2131492952;
-			
-			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_btn_checkable = 2131492953;
-			
-			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_default = 2131492954;
-			
-			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_edittext = 2131492955;
-			
-			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_seek_thumb = 2131492956;
-			
 			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_spinner = 2131492957;
+			public const int abc_secondary_text_material_dark = 2131492957;
 			
 			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			public const int abc_secondary_text_material_light = 2131492958;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int abc_tint_btn_checkable = 2131492959;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int abc_tint_default = 2131492960;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int abc_tint_edittext = 2131492961;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int abc_tint_seek_thumb = 2131492962;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int abc_tint_spinner = 2131492963;
+			
+			// aapt resource value: 0x7f0c0064
+			public const int abc_tint_switch_track = 2131492964;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int accent_material_dark = 2131492868;
@@ -1304,17 +1304,26 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0c0049
 			public const int colorAccent = 2131492937;
 			
+			// aapt resource value: 0x7f0c004d
+			public const int colorAccentRadynBlue = 2131492941;
+			
 			// aapt resource value: 0x7f0c0047
 			public const int colorPrimary = 2131492935;
 			
 			// aapt resource value: 0x7f0c0048
 			public const int colorPrimaryDark = 2131492936;
 			
+			// aapt resource value: 0x7f0c004b
+			public const int colorPrimaryDarkRadynBlue = 2131492939;
+			
+			// aapt resource value: 0x7f0c004a
+			public const int colorPrimaryRadynBlue = 2131492938;
+			
 			// aapt resource value: 0x7f0c003c
 			public const int design_bottom_navigation_shadow_color = 2131492924;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0065
+			public const int design_error = 2131492965;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int design_fab_shadow_end_color = 2131492925;
@@ -1340,8 +1349,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0c0044
 			public const int design_snackbar_background_color = 2131492932;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c0066
+			public const int design_tint_password_toggle = 2131492966;
 			
 			// aapt resource value: 0x7f0c0012
 			public const int dim_foreground_disabled_material_dark = 2131492882;
@@ -1370,8 +1379,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0c001a
 			public const int highlighted_text_material_light = 2131492890;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int ic_launcher_background = 2131492938;
+			// aapt resource value: 0x7f0c0050
+			public const int ic_launcher_background = 2131492944;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int material_blue_grey_800 = 2131492891;
@@ -1408,6 +1417,9 @@ namespace ir.RadynBookStore.Core
 			
 			// aapt resource value: 0x7f0c0026
 			public const int material_grey_900 = 2131492902;
+			
+			// aapt resource value: 0x7f0c004e
+			public const int navigationBarColorRadynBlue = 2131492942;
 			
 			// aapt resource value: 0x7f0c0045
 			public const int notification_action_color_filter = 2131492933;
@@ -1466,11 +1478,11 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0c0036
 			public const int switch_thumb_disabled_material_light = 2131492918;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
+			// aapt resource value: 0x7f0c0067
+			public const int switch_thumb_material_dark = 2131492967;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			// aapt resource value: 0x7f0c0068
+			public const int switch_thumb_material_light = 2131492968;
 			
 			// aapt resource value: 0x7f0c0037
 			public const int switch_thumb_normal_material_dark = 2131492919;
@@ -1478,11 +1490,17 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0c0038
 			public const int switch_thumb_normal_material_light = 2131492920;
 			
+			// aapt resource value: 0x7f0c004c
+			public const int textColorPrimaryRadynBlue = 2131492940;
+			
 			// aapt resource value: 0x7f0c0039
 			public const int tooltip_background_dark = 2131492921;
 			
 			// aapt resource value: 0x7f0c003a
 			public const int tooltip_background_light = 2131492922;
+			
+			// aapt resource value: 0x7f0c004f
+			public const int windowBackgroundRadynBlue = 2131492943;
 			
 			static Color()
 			{
@@ -2348,14 +2366,17 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080097
 			public const int Price = 2131230871;
 			
+			// aapt resource value: 0x7f0800af
+			public const int RadynBlueTooltBar = 2131230895;
+			
 			// aapt resource value: 0x7f080036
 			public const int SHIFT = 2131230774;
 			
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int action0 = 2131230900;
+			// aapt resource value: 0x7f0800b5
+			public const int action0 = 2131230901;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_bar = 2131230844;
@@ -2378,17 +2399,17 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int action_container = 2131230897;
+			// aapt resource value: 0x7f0800b2
+			public const int action_container = 2131230898;
 			
 			// aapt resource value: 0x7f08007d
 			public const int action_context_bar = 2131230845;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int action_divider = 2131230904;
+			// aapt resource value: 0x7f0800b9
+			public const int action_divider = 2131230905;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int action_image = 2131230898;
+			// aapt resource value: 0x7f0800b3
+			public const int action_image = 2131230899;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2405,11 +2426,11 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int action_text = 2131230899;
+			// aapt resource value: 0x7f0800b4
+			public const int action_text = 2131230900;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int actions = 2131230913;
+			// aapt resource value: 0x7f0800c2
+			public const int actions = 2131230914;
 			
 			// aapt resource value: 0x7f08005d
 			public const int activity_chooser_view_content = 2131230813;
@@ -2441,8 +2462,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f08003d
 			public const int bottom = 2131230781;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int btnCreate = 2131230896;
+			// aapt resource value: 0x7f0800b1
+			public const int btnCreate = 2131230897;
 			
 			// aapt resource value: 0x7f0800ae
 			public const int btnDelete = 2131230894;
@@ -2450,8 +2471,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0800ad
 			public const int btnEdit = 2131230893;
 			
-			// aapt resource value: 0x7f0800af
-			public const int btnIndex = 2131230895;
+			// aapt resource value: 0x7f0800b0
+			public const int btnIndex = 2131230896;
 			
 			// aapt resource value: 0x7f080098
 			public const int btnSave = 2131230872;
@@ -2459,8 +2480,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int cancel_action = 2131230901;
+			// aapt resource value: 0x7f0800b6
+			public const int cancel_action = 2131230902;
 			
 			// aapt resource value: 0x7f080045
 			public const int center = 2131230789;
@@ -2474,8 +2495,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int chronometer = 2131230909;
+			// aapt resource value: 0x7f0800be
+			public const int chronometer = 2131230910;
 			
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
@@ -2543,8 +2564,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int end_padder = 2131230915;
+			// aapt resource value: 0x7f0800c4
+			public const int end_padder = 2131230916;
 			
 			// aapt resource value: 0x7f08003f
 			public const int enterAlways = 2131230783;
@@ -2588,8 +2609,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080062
 			public const int icon = 2131230818;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int icon_group = 2131230914;
+			// aapt resource value: 0x7f0800c3
+			public const int icon_group = 2131230915;
 			
 			// aapt resource value: 0x7f08003a
 			public const int ifRoom = 2131230778;
@@ -2600,8 +2621,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f0800a7
 			public const int imageView1 = 2131230887;
 			
-			// aapt resource value: 0x7f0800be
-			public const int info = 2131230910;
+			// aapt resource value: 0x7f0800bf
+			public const int info = 2131230911;
 			
 			// aapt resource value: 0x7f080059
 			public const int italic = 2131230809;
@@ -2627,14 +2648,14 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800c6
-			public const int masked = 2131230918;
+			// aapt resource value: 0x7f0800c7
+			public const int masked = 2131230919;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int media_actions = 2131230903;
+			// aapt resource value: 0x7f0800b8
+			public const int media_actions = 2131230904;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int message = 2131230916;
+			// aapt resource value: 0x7f0800c5
+			public const int message = 2131230917;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2657,14 +2678,14 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f08001e
 			public const int normal = 2131230750;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int notification_background = 2131230912;
+			// aapt resource value: 0x7f0800c1
+			public const int notification_background = 2131230913;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int notification_main_column = 2131230907;
 			
 			// aapt resource value: 0x7f0800ba
-			public const int notification_main_column = 2131230906;
-			
-			// aapt resource value: 0x7f0800b9
-			public const int notification_main_column_container = 2131230905;
+			public const int notification_main_column_container = 2131230906;
 			
 			// aapt resource value: 0x7f08004c
 			public const int parallax = 2131230796;
@@ -2693,11 +2714,11 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int right_icon = 2131230911;
+			// aapt resource value: 0x7f0800c0
+			public const int right_icon = 2131230912;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int right_side = 2131230907;
+			// aapt resource value: 0x7f0800bc
+			public const int right_side = 2131230908;
 			
 			// aapt resource value: 0x7f08008d
 			public const int rowAuthor = 2131230861;
@@ -2813,8 +2834,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int status_bar_latest_event_content = 2131230902;
+			// aapt resource value: 0x7f0800b7
+			public const int status_bar_latest_event_content = 2131230903;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
@@ -2849,8 +2870,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int time = 2131230908;
+			// aapt resource value: 0x7f0800bd
+			public const int time = 2131230909;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -2912,8 +2933,8 @@ namespace ir.RadynBookStore.Core
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int visible = 2131230917;
+			// aapt resource value: 0x7f0800c6
+			public const int visible = 2131230918;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3903,6 +3924,9 @@ namespace ir.RadynBookStore.Core
 			
 			// aapt resource value: 0x7f0a0022
 			public const int Platform_Widget_AppCompat_Spinner = 2131361826;
+			
+			// aapt resource value: 0x7f0a0181
+			public const int RadynBlueTheme = 2131362177;
 			
 			// aapt resource value: 0x7f0a002b
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131361835;

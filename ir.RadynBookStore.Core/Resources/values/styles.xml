@@ -1,11 +1,24 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <!--Radyn-Blue-->
+  <style name="RadynBlueTheme" parent="Theme.AppCompat.Light">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+
+    <item name="colorPrimary">@color/colorPrimaryRadynBlue</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDarkRadynBlue</item>
+    <!--<item name="textColorPrimary">@color/textColorPrimaryRadynBlue</item>-->
+    <item name="colorAccent">@color/colorAccentRadynBlue</item>
+    <!--<item name="navigationBarColor">@color/navigationBarColorRadynBlue</item>
+    <item name="windowBackground">@color/windowBackgroundRadynBlue</item>-->
+  </style>
 
 </resources>
